@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+   I'm currently studying Computer Science at Purdue University with a focus in software engineering and systems programming. Outside of school, I enjoy working on Android Development. I have one app on the play store right now, [Last Pick](https://play.google.com/store/apps/details?id=joebruckner.lastpick.release&hl=en), that has over 5,000 downloads. 
