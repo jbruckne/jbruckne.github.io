@@ -1,0 +1,11 @@
+---
+
+const { svg, caption, link } = Astro.props
+
+---
+
+
+<a href={link} target="_blank">
+    <span class="sr-only">{caption}</span>
+    <slot />
+</a>
