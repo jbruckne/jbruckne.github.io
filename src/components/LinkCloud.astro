@@ -1,0 +1,49 @@
+---
+const links = {
+    instagram: {
+        caption: 'Instagram',
+        ref: 'https://www.instagram.com/joebruckner/'
+    },
+    github: {
+        caption: 'Github',
+        ref: 'https://www.github.com/jbruckne'
+    },
+    linkedIn: {
+        caption: 'LinkedIn',
+        ref: 'https://www.linkedin.com/in/joe-bruckner-03736380/'
+    },
+    indy: {
+        caption: 'Indianapolis',
+        ref: 'https://maps.app.goo.gl/ZcySyyzBDjrVjhaW7'
+    },
+    amazon: {
+        caption: 'Amazon',
+        ref: 'https://www.amazon.com'
+    }
+}
+---
+
+<div>
+    <p>
+        Hey! I'm Joe Bruckner.
+        I am a software engineer currently based in <a href={links.indy.ref}>{links.indy.caption}</a>.
+        I have spent the last seven years at <a href={links.amazon.ref}>{links.amazon.caption}</a> working on the mobile shopping experience (more info on my <a href={links.linkedIn.ref}>{links.linkedIn.caption}</a>).
+        Any side projects that I have been (or likely haven't been) working on can be found on my <a href={links.github.ref}>{links.github.caption}</a>.
+        Lastly, you can check out my <a href={links.instagram.ref}>{links.instagram.caption}</a> to see what I've been up to with Shailja, Shiloh, and Rollo.
+    </p>
+</div>
+
+<style>
+    div {
+        @apply h-full justify-center content-center indent-8
+    }
+    p {
+        @apply indent-8
+    }
+    a {
+        color: var(--link-color);
+    }
+    a:hover {
+        color: var(--link-hover);
+    }
+</style>
